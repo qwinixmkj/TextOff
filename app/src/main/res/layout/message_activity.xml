@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomlayer"
+        android:layout_alignParentTop="true" >
+    </ListView>
+    <TextView 
+    android:id="@+id/nomessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="There are no message defined"
+    android:textColor="@android:color/holo_red_light"
+    android:layout_centerInParent="true"
+    android:gravity="center_horizontal"
+    android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/bottomlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Create Message" />
+
+       
+    </RelativeLayout>
+
+</RelativeLayout>
