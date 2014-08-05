@@ -13,12 +13,16 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
+/**
+ * SMS related actions
+ */
 public class MessageActivity extends Activity implements OnClickListener{
 
 	private ListView mGroupLIst;
 	private Button mSmsCreate;
 	private String[] gnames;
 	private TextView mNoGroupText;
+    private int x;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
