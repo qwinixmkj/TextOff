@@ -22,7 +22,7 @@ public class MessageActivity extends Activity implements OnClickListener{
 	private Button mSmsCreate;
 	private String[] gnames;
 	private TextView mNoGroupText;
-    private int x;//comrnty
+    private int x;//hotfix changes
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
